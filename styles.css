@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+div {
+    padding: 2px red;
+    border: 2px blue;
+}
+
+h1 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+.calculator {
+    width: 32rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    height: 4rem;
+}
+
+.calculation {
+    height: 16rem;
+}
+
+.numbers {
+    height: 6rem;
+}
