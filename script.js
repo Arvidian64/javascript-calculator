@@ -18,12 +18,12 @@ function divide(x,y) {
     z = x / y;
     return z;
 }
-function toThePowerOf(x,y) {
+function powerOf(x,y) {
     z = x **y;
     return z;
 }
 
 function rootOf(x) {
-    z = math.sqrt(x);
+    z = Math.sqrt(x);
     return z;
 }
