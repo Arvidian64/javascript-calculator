@@ -1,15 +1,20 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: rgb(2, 0, 20);
+    color: rgb(253, 232, 232);
+    padding: 2rem 8rem;
 }
 
 div {
-    padding: 2px red;
-    border: 2px blue;
+    border: 2px solid blue;
 }
 
 h1 {
 
+}
+
+h2 {
+    color: #db4e55;
+    font-size: x-large;
 }
 
 h3 {
@@ -20,6 +25,23 @@ h4 {
 
 }
 
+.bottomBox {
+    display: flex;
+}
+
+.leftBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1rem;
+    padding: 1rem;
+    width: 22rem;
+}
+
+.okButton {
+    margin: 0.5rem;
+    flex: 1;
+}
+
 .calculator {
     width: 32rem;
     display: flex;
@@ -28,6 +50,7 @@ h4 {
 
 .title {
     height: 4rem;
+    text-align: center;
 }
 
 .calculation {
@@ -36,4 +59,18 @@ h4 {
 
 .numbers {
     height: 6rem;
+}
+
+div p {
+    font-size: xx-large;
+    margin: 2.25rem;
+}
+
+.leftBox button {
+    background-color: #0A3C63;
+    color: #630A0F;
+    height: 6.5rem;
+    width: 6.5rem;
+    font-size: 4rem;
+    border-radius: 1rem;
 }
