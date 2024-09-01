@@ -1,6 +1,6 @@
 body {
     background-color: rgb(2, 0, 20);
-    color: rgb(253, 232, 232);
+    color: rgb(253, 223, 223);
     padding: 2rem 8rem;
 }
 
@@ -9,12 +9,14 @@ div {
 }
 
 h1 {
-
+    font-size: 3rem;
+    text-decoration: underline 0.25rem rgb(102, 0, 0);
 }
 
 h2 {
-    color: #db4e55;
-    font-size: x-large;
+    color: #e25960;
+    font-size: 2rem;
+    margin: 1rem;
 }
 
 h3 {
@@ -72,10 +74,13 @@ div p {
 }
 
 .leftBox button {
-    background-color: #0A3C63;
-    color: #630A0F;
+    background-color: #022541;
+    color: #803639;
     height: 6.5rem;
     width: 6.5rem;
     font-size: 4rem;
     border-radius: 1rem;
+}
+.leftBox button:hover {
+    background-color: black;
 }
