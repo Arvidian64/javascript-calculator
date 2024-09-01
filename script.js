@@ -27,3 +27,13 @@ function rootOf(x) {
     z = Math.sqrt(x);
     return z;
 }
+
+const textBox = document.getElementById("textBox");
+
+const addButton = document.getElementById("addButton");
+
+function appendToTextBox (string) {
+    textBox.value += string;
+};
+
+addButton.addEventListener("click", () => appendToTextBox(addButton.innerHTML));
